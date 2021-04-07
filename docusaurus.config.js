@@ -51,12 +51,12 @@ module.exports = {
       respectPrefersColorScheme: true,
     },
 
-    announcementBar: {
-      id: 'notice',
-      content:  'test',
-      backgroundColor: '#fdad54',
-      isCloseable: true,
-    },
+    // announcementBar: {
+    //   id: 'notice',
+    //   content:  'test',
+    //   backgroundColor: '#fdad54',
+    //   isCloseable: true,
+    // },
 
     liveCodeBlock: { playgroundPosition: 'bottom', },
 
