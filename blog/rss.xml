@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Whirlsplash Blog</title>
+        <link>https://whirlsplash.org/blog</link>
+        <description>Whirlsplash Blog</description>
+        <lastBuildDate>Tue, 06 Apr 2021 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Welcome]]></title>
+            <link>https://whirlsplash.org/blog/welcome</link>
+            <guid>welcome</guid>
+            <pubDate>Tue, 06 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Welcome to the new and improved Whirlsplash guide and blog!]]></description>
+        </item>
+    </channel>
+</rss>

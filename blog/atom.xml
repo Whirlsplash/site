@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://whirlsplash.org/blog</id>
+    <title>Whirlsplash Blog</title>
+    <updated>2021-04-06T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://whirlsplash.org/blog"/>
+    <subtitle>Whirlsplash Blog</subtitle>
+    <icon>https://whirlsplash.org/img/Whirl.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Welcome]]></title>
+        <id>welcome</id>
+        <link href="https://whirlsplash.org/blog/welcome"/>
+        <updated>2021-04-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Welcome to the new and improved Whirlsplash guide and blog!]]></summary>
+    </entry>
+</feed>
