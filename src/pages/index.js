@@ -18,11 +18,9 @@ const features = [
           enjoy!
         </div>
         <div className="card__footer">
-          <a href="#" target="_blank">
-            <button className="button button--primary button--block disabled">
-              Get Started
-            </button>
-          </a>
+          <button className="button button--primary button--block disabled">
+            Get Started
+          </button>
         </div>
       </div>
     ),
@@ -37,11 +35,9 @@ const features = [
           admin in game? done! YOU rule YOUR server.
         </div>
         <div className="card__footer">
-          <a href="#" target="_blank">
-            <button className="button button--primary button--block disabled">
-              Explore Configuration Options
-            </button>
-          </a>
+          <button className="button button--primary button--block disabled">
+            Explore Configuration Options
+          </button>
         </div>
       </div>
     ),
