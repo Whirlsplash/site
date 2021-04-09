@@ -4,9 +4,16 @@
         <title>Whirlsplash Blog</title>
         <link>https://whirlsplash.org/blog</link>
         <description>Whirlsplash Blog</description>
-        <lastBuildDate>Tue, 06 Apr 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 09 Apr 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[The State of Whirl]]></title>
+            <link>https://whirlsplash.org/blog/the-state-of-whirl</link>
+            <guid>the-state-of-whirl</guid>
+            <pubDate>Fri, 09 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[This probably won't come as a surprise to anyone, however, further development]]></description>
+        </item>
         <item>
             <title><![CDATA[Welcome]]></title>
             <link>https://whirlsplash.org/blog/welcome</link>
