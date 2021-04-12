@@ -16,6 +16,8 @@ jobs:
         uses: actions/checkout@v2.3.1
 
       - name: Install and Build 🔧
+        env:
+          ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
         run: |
           npm i
           npm run build
