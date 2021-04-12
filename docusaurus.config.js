@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'Whirlsplash',
@@ -60,13 +62,10 @@ module.exports = {
 
     liveCodeBlock: { playgroundPosition: 'bottom', },
 
-    // TODO: Implement
-    // algolio: {
-    //   apiKey: '',
-    //   indexName: '',
-    //   contextualSearch: true,
-    //   searchParameters: {},
-    // },
+    algolia: {
+      apiKey: process.env.ALGOLIA_API_KEY,
+      indexName: 'whirlsplash',
+    },
   },
   presets: [
     [
