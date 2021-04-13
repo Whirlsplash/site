@@ -13,9 +13,9 @@ const features = [
     description: (
       <div className="card">
         <div className="card__footer">
-          The core Whirl server was meant to be easy and quick to install. All
-          have to do is download (or built) the binary, generate a config, and
-          enjoy!
+          The core Whirl binary was designed to be easy and quick to install.
+          All have to do is download (or build) the Whirl server binary,
+          generate a config, and enjoy!
         </div>
         <div className="card__footer">
           <button className="button button--primary button--block disabled">
@@ -31,8 +31,11 @@ const features = [
     description: (
       <div className="card">
         <div className="card__footer">
-          Whirl provides simple and fast customizability, want to be a host or an
-          admin in game? done! YOU rule YOUR server.
+          Whirl provides simple and fast customizability, zero fiddling
+          required! Want to be a host or an admin in-game? done!
+          <br /><br />
+
+          <b>YOU</b> rule <b>YOUR</b> server.
         </div>
         <div className="card__footer">
           <button className="button button--primary button--block disabled">
@@ -49,7 +52,9 @@ const features = [
       <div className="card">
         <div className="card__footer">
           Much of Whirl has been built in <a href="https://golang.org/">Go</a>,
-          a fast, simple, and maintainable modern language.
+          a fast, simple, and maintainable modern language. Gone are the days
+          of having to maintain legacy code or having to keep fixing bugs in
+          software that wasn't written to be read, and it's all open-source!
         </div>
         <div className="card__footer">
           <a href="https://github.com/Whirlsplash/whirl" target="_blank">
