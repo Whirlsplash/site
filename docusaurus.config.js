@@ -17,9 +17,37 @@ module.exports = {
       title: 'Whirlsplash',
       logo: { alt: 'Whirlsplash logo', src: 'img/Whirl.png', },
       items: [
-        { to: 'docs/', activeBasePath: 'docs', label: 'Docs', position: 'left', },
+        {
+          to: 'docs/',
+          activeBasePath: 'docs',
+          label: 'Docs',
+          position: 'left',
+        },
         { to: 'blog', label: 'Blog', position: 'left' },
-        { href: 'https://github.com/whirlsplash/site', label: 'GitHub', position: 'right', },
+        {
+          type: 'docsVersionDropdown',
+          position: 'right',
+          dropdownItemsBefore: [],
+          dropdownItemsAfter: [ { to: '/versions', label: 'All versions', }, ],
+          dropdownActiveClassDisabled: true,
+          docsPluginId: 'default',
+        },
+        {
+          type: 'localeDropdown',
+          position: 'right',
+          dropdownItemsBefore: [],
+          dropdownItemsAfter: [
+            {
+              to: 'https://github.com/whirlsplash/site',
+              label: 'Help us translate!',
+            },
+          ],
+        },
+        {
+          href: 'https://github.com/whirlsplash/site',
+          label: 'GitHub',
+          position: 'right',
+        },
       ],
     },
 
@@ -28,7 +56,13 @@ module.exports = {
       links: [
         {
           title: 'Docs',
-          items: [ { label: 'Getting Started', to: 'docs/', }, ],
+          items: [
+            { label: 'Getting Started', to: 'docs/', },
+            {
+              label: 'Technical Information',
+              to: 'docs/worldserver-protocol/packet-information',
+            },
+          ],
         },
         {
           title: 'Community',
@@ -45,6 +79,7 @@ module.exports = {
           ],
         },
       ],
+      copyright: `Copyleft © ${new Date().getFullYear()} Whirlsplash`,
     },
 
     colorMode: {
