@@ -24,14 +24,14 @@ module.exports = {
           position: 'left',
         },
         { to: 'blog', label: 'Blog', position: 'left' },
-        {
-          type: 'docsVersionDropdown',
-          position: 'right',
-          dropdownItemsBefore: [],
-          dropdownItemsAfter: [ { to: '/versions', label: 'All versions', }, ],
-          dropdownActiveClassDisabled: true,
-          docsPluginId: 'default',
-        },
+        // {
+        //   type: 'docsVersionDropdown',
+        //   position: 'right',
+        //   dropdownItemsBefore: [],
+        //   dropdownItemsAfter: [ { to: '/versions', label: 'All versions', }, ],
+        //   dropdownActiveClassDisabled: true,
+        //   docsPluginId: 'default',
+        // },
         {
           type: 'localeDropdown',
           position: 'right',
