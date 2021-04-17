@@ -75,7 +75,8 @@ module.exports = {
           title: 'More',
           items: [
             { label: 'GitHub', href: 'https://github.com/whirlsplash', },
-            { label: 'License', href: 'https://github.com/Whirlsplash/site/blob/main/LICENSE', }
+            { label: 'License', href: 'https://github.com/Whirlsplash/site/blob/main/LICENSE', },
+            { label: 'Contact', href: 'mailto:whirlsplash@gmail.com', },
           ],
         },
       ],
