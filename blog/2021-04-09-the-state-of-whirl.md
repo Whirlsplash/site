@@ -8,6 +8,9 @@ author_image_url: https://avatars.githubusercontent.com/u/50817549?v=4
 tags: [status, info]
 ---
 
+## Notice
+This is outdated! Any information found in this blog post may have been changed.
+
 This probably won't come as a surprise to anyone, however, further development
 on Whirl has been halted.
 
