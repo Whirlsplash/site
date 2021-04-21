@@ -51,8 +51,8 @@ const features = [
     description: (
       <div className="card">
         <div className="card__footer">
-          Much of Whirl has been built in <a href="https://golang.org/">Go</a>,
-          a fast, simple, and maintainable modern language. Gone are the days
+          Much of Whirl has been built in <a href="https://www.rust-lang.org/">Rust</a>,
+          a lightning fast, memory-safe, and maintainable modern language. Gone are the days
           of having to maintain legacy code or having to keep fixing bugs in
           software that wasn't written to be read, and it's all open-source!
         </div>
