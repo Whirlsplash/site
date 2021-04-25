@@ -96,11 +96,13 @@ export default function Home() {
           <div>
             <a href="https://discord.com/invite/8hn6padWF6" title="Discord">
               <img
-                src="https://img.shields.io/discord/821938182274154506?style=for-the-badge&logo=appveyor" />
+                src="https://img.shields.io/discord/821938182274154506?style=for-the-badge&logo=appveyor"
+                alt="Discord" />
             </a>&nbsp;
             <a href="https://github.com/Whirlsplash/whirl/blob/master/LICENSE" title="License">
               <img
-                src="https://img.shields.io/github/license/Whirlsplash/whirl?style=for-the-badge&logo=appveyor" />
+                src="https://img.shields.io/github/license/Whirlsplash/whirl?style=for-the-badge&logo=appveyor"
+                alt="License" />
             </a>
           </div>
 
