@@ -99,6 +99,11 @@ export default function Home() {
                 src="https://img.shields.io/discord/821938182274154506?style=for-the-badge&logo=appveyor"
                 alt="Discord" />
             </a>&nbsp;
+            <a href="https://www.codefactor.io/repository/github/whirlsplash/whirl">
+              <img
+                src="https://www.codefactor.io/repository/github/whirlsplash/whirl/badge?style=for-the-badge&logo=appveyor"
+                alt="CodeFactor" />
+            </a>&nbsp;
             <a href="https://github.com/Whirlsplash/whirl/blob/master/LICENSE" title="License">
               <img
                 src="https://img.shields.io/github/license/Whirlsplash/whirl?style=for-the-badge&logo=appveyor"
