@@ -105,7 +105,7 @@ export default function Home() {
                 alt="CodeFactor" />
             </a>&nbsp;
             <a href="https://saythanks.io/to/fuwnzy@gmail.com">
-              <img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg" alt="Say Thanks" />
+              <img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg?style=for-the-badge&logo=appveyor" alt="Say Thanks" />
             </a>&nbsp;
             <a href="https://github.com/Whirlsplash/whirl/blob/master/LICENSE">
               <img
