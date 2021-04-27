@@ -106,7 +106,7 @@ export default function Home() {
             </a>&nbsp;
             <a href="https://saythanks.io/to/fuwnzy@gmail.com">
               <img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg" alt="Say Thanks" />
-            </a>
+            </a>&nbsp;
             <a href="https://github.com/Whirlsplash/whirl/blob/master/LICENSE" title="License">
               <img
                 src="https://img.shields.io/github/license/Whirlsplash/whirl?style=for-the-badge&logo=appveyor"
