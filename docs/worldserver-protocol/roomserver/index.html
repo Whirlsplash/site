@@ -7,17 +7,17 @@
 <link rel="alternate" type="application/rss+xml" href="/blog/rss.xml" title="Whirlsplash Blog RSS Feed">
 <link rel="alternate" type="application/atom+xml" href="/blog/atom.xml" title="Whirlsplash Blog Atom Feed">
 <link rel="search" type="application/opensearchdescription+xml" title="Whirlsplash" href="/opensearch.xml"><title data-react-helmet="true">RoomServer | Whirlsplash</title><meta data-react-helmet="true" property="og:url" content="https://whirlsplash.org/docs/worldserver-protocol/roomserver"><meta data-react-helmet="true" name="docsearch:language" content="en"><meta data-react-helmet="true" name="docsearch:version" content="current"><meta data-react-helmet="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-react-helmet="true" property="og:title" content="RoomServer | Whirlsplash"><meta data-react-helmet="true" name="description" content="The following information is directly quoted from the GammaDocs."><meta data-react-helmet="true" property="og:description" content="The following information is directly quoted from the GammaDocs."><link data-react-helmet="true" rel="shortcut icon" href="/img/Whirl.png"><link data-react-helmet="true" rel="canonical" href="https://whirlsplash.org/docs/worldserver-protocol/roomserver"><link data-react-helmet="true" rel="alternate" href="https://whirlsplash.org/docs/worldserver-protocol/roomserver" hreflang="en"><link data-react-helmet="true" rel="alternate" href="https://whirlsplash.org/docs/worldserver-protocol/roomserver" hreflang="x-default"><link data-react-helmet="true" rel="preconnect" href="https://BH4D9OD16A-dsn.algolia.net" crossorigin="anonymous"><link rel="stylesheet" href="/assets/css/styles.ee3e11ff.css">
-<link rel="preload" href="/assets/js/styles.5be67a77.js" as="script">
-<link rel="preload" href="/assets/js/runtime~main.0a2bc93a.js" as="script">
-<link rel="preload" href="/assets/js/main.5d7c6d0a.js" as="script">
-<link rel="preload" href="/assets/js/1.3358b7b2.js" as="script">
-<link rel="preload" href="/assets/js/2.db42bfc5.js" as="script">
-<link rel="preload" href="/assets/js/3.6a741e8f.js" as="script">
-<link rel="preload" href="/assets/js/1be78505.ed38b218.js" as="script">
-<link rel="preload" href="/assets/js/49.d48a3c96.js" as="script">
-<link rel="preload" href="/assets/js/935f2afb.f6567032.js" as="script">
-<link rel="preload" href="/assets/js/17896441.de612012.js" as="script">
-<link rel="preload" href="/assets/js/0d7b87ac.b3b1e229.js" as="script">
+<link rel="preload" href="/assets/js/styles.8132942d.js" as="script">
+<link rel="preload" href="/assets/js/runtime~main.7662cdaf.js" as="script">
+<link rel="preload" href="/assets/js/main.a15cecf1.js" as="script">
+<link rel="preload" href="/assets/js/1.3c8841a7.js" as="script">
+<link rel="preload" href="/assets/js/2.0b2cc477.js" as="script">
+<link rel="preload" href="/assets/js/3.3422c57a.js" as="script">
+<link rel="preload" href="/assets/js/1be78505.3c5f2200.js" as="script">
+<link rel="preload" href="/assets/js/49.275f5a18.js" as="script">
+<link rel="preload" href="/assets/js/935f2afb.64a3371c.js" as="script">
+<link rel="preload" href="/assets/js/17896441.23f8e952.js" as="script">
+<link rel="preload" href="/assets/js/0d7b87ac.a75c08c2.js" as="script">
 </head>
 <body>
 <script>!function(){function e(e){document.documentElement.setAttribute("data-theme",e)}var t=function(){var e=null;try{e=localStorage.getItem("theme")}catch(e){}return e}();null!==t?e(t):window.matchMedia("(prefers-color-scheme: dark)").matches?e("dark"):window.matchMedia("(prefers-color-scheme: light)").matches?e("light"):e("dark")}()</script><div id="__docusaurus">
@@ -30,16 +30,16 @@ UserServer will establish the first TCP/IP connection with a client and then red
 vicinity. Performs crowd control calculations that determine how avatars are seen and heard by others.</li><li>Handles and distributes chat text, whispers and broadcast text. Whispers and other messages
 targeted at users not on that RoomServer are forwarded to the UserServer for routing.</li><li>Acts as a database client for a properties database to query or modify Room properties, if any.
 This includes accessing properties for any shared state or shared objects found in rooms.</li></ul></div></article><div class="margin-vert--xl"><div class="row"><div class="col"><a href="https://github.com/whirlsplash/site/edit/master/website/docs/worldserver-protocol/roomserver.md" target="_blank" rel="noreferrer noopener"><svg fill="currentColor" height="1.2em" width="1.2em" preserveAspectRatio="xMidYMid meet" role="img" viewBox="0 0 40 40" class="iconEdit_2_ui" aria-label="Edit page"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div></div></div><div class="margin-vert--lg"><nav class="pagination-nav" aria-label="Docs pages navigation"><div class="pagination-nav__item"><a class="pagination-nav__link" href="/docs/worldserver-protocol/network-constants"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">« Network Constants</div></a></div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="/docs/worldserver-protocol/userserver"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">UserServer »</div></a></div></nav></div></div></div><div class="col col--3"><div class="tableOfContents_35-E thin-scrollbar"></div></div></div></div></main></div></div><footer class="footer footer--dark"><div class="container"><div class="row footer__links"><div class="col footer__col"><h4 class="footer__title">Docs</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" href="/docs/">Getting Started</a></li><li class="footer__item"><a class="footer__link-item" href="/docs/worldserver-protocol/packet-information">Technical Information</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Community</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" href="/blog">Blog</a></li><li class="footer__item"><a href="https://discord.com/invite/8hn6padWF6" target="_blank" rel="noopener noreferrer" class="footer__link-item">Discord</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">More</h4><ul class="footer__items"><li class="footer__item"><a href="https://github.com/whirlsplash" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub</a></li><li class="footer__item"><a href="https://github.com/Whirlsplash/site/blob/main/LICENSE" target="_blank" rel="noopener noreferrer" class="footer__link-item">License</a></li><li class="footer__item"><a href="mailto:whirlsplash@gmail.com" target="_blank" rel="noopener noreferrer" class="footer__link-item">Contact</a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyleft © 2021 Whirlsplash</div></div></div></footer></div>
-<script src="/assets/js/styles.5be67a77.js"></script>
-<script src="/assets/js/runtime~main.0a2bc93a.js"></script>
-<script src="/assets/js/main.5d7c6d0a.js"></script>
-<script src="/assets/js/1.3358b7b2.js"></script>
-<script src="/assets/js/2.db42bfc5.js"></script>
-<script src="/assets/js/3.6a741e8f.js"></script>
-<script src="/assets/js/1be78505.ed38b218.js"></script>
-<script src="/assets/js/49.d48a3c96.js"></script>
-<script src="/assets/js/935f2afb.f6567032.js"></script>
-<script src="/assets/js/17896441.de612012.js"></script>
-<script src="/assets/js/0d7b87ac.b3b1e229.js"></script>
+<script src="/assets/js/styles.8132942d.js"></script>
+<script src="/assets/js/runtime~main.7662cdaf.js"></script>
+<script src="/assets/js/main.a15cecf1.js"></script>
+<script src="/assets/js/1.3c8841a7.js"></script>
+<script src="/assets/js/2.0b2cc477.js"></script>
+<script src="/assets/js/3.3422c57a.js"></script>
+<script src="/assets/js/1be78505.3c5f2200.js"></script>
+<script src="/assets/js/49.275f5a18.js"></script>
+<script src="/assets/js/935f2afb.64a3371c.js"></script>
+<script src="/assets/js/17896441.23f8e952.js"></script>
+<script src="/assets/js/0d7b87ac.a75c08c2.js"></script>
 </body>
 </html>
