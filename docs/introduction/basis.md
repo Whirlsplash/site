@@ -13,7 +13,10 @@ maintainability, and easy configuration.
 </a>&nbsp;
 <a href="https://www.codefactor.io/repository/github/whirlsplash/whirl">
   <img src="https://www.codefactor.io/repository/github/whirlsplash/whirl/badge" alt="CodeFactor" />
-</a>&nbsp;
+</a>&nbsp
+<a href="https://saythanks.io/to/fuwnzy@gmail.com">
+<img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg" alt="Say Thanks" />
+</a>
 <a href="https://github.com/Whirlsplash/whirl/blob/master/LICENSE" title="License">
 	<img src="https://img.shields.io/github/license/Whirlsplash/whirl" alt="License" />
 </a>
