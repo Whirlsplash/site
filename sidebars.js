@@ -8,6 +8,7 @@ module.exports = {
         'introduction/resources',
         'introduction/workflow',
         'introduction/contributing',
+        'introduction/setting_up_a_development_environment',
 
         // Uncomment in development environment if you would like to view tutorial
         // Might break somethings though...
