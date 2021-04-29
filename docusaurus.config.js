@@ -80,7 +80,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyleft © ${new Date().getFullYear()} Whirlsplash`,
+      copyright: `Copyleft © ${new Date().getFullYear()} The Whirlsplash Collective`,
     },
 
     colorMode: {
