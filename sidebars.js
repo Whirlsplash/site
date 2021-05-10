@@ -22,10 +22,17 @@ module.exports = {
     },
     {
       type: 'category',
+      label: 'Whirl',
+      items: [
+        'whirl/configuration',
+      ],
+    },
+    {
+      type: 'category',
       label: 'GammaDocs',
       items: [
-        'gammadocs/roomserver/userserver-configuration-options'
-      ]
+        'gammadocs/roomserver/userserver-configuration-options',
+      ],
     },
     {
       type: 'category',
@@ -35,8 +42,8 @@ module.exports = {
         'worldserver-protocol/packet-information',
         'worldserver-protocol/network-constants',
         'worldserver-protocol/roomserver',
-        'worldserver-protocol/userserver'
-      ]
+        'worldserver-protocol/userserver',
+      ],
     },
     {
       type: 'category',
@@ -53,13 +60,12 @@ module.exports = {
                 'worlds-jar/net-worlds/network/objid',
                 'worlds-jar/net-worlds/network/serveroutputstream',
                 'worlds-jar/net-worlds/network/netconst',
-                'worlds-jar/net-worlds/network/netpacket'
-              ]
-            }
-          ]
-        }
-
-      ]
-    }
+                'worlds-jar/net-worlds/network/netpacket',
+              ],
+            },
+          ],
+        },
+      ],
+    },
   ],
 };
