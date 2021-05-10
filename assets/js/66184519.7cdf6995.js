@@ -1,1 +1,0 @@
-(self.webpackChunksite=self.webpackChunksite||[]).push([[6309],{6353:function(e){"use strict";e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Progress is Progress","permalink":"/blog/progress-is-progress"},{"title":"The State of Whirl","permalink":"/blog/the-state-of-whirl"},{"title":"Welcome","permalink":"/blog/welcome"}]}')}}]);
