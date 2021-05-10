@@ -38,9 +38,11 @@ const features = [
           <b>YOU</b> rule <b>YOUR</b> server.
         </div>
         <div className="card__footer">
-          <button className="button button--primary button--block disabled">
-            Explore Configuration Options
-          </button>
+          <a href="/docs/whirl/configuration" target="_blank">
+            <button className="button button--primary button--block">
+              Explore Configuration Options
+            </button>
+          </a>
         </div>
       </div>
     ),
