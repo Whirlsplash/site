@@ -27,7 +27,11 @@ When connecting to a local server (client and host both originate from the same 
 `0.0.0.0` or `127.0.0.1` is fine, however, if you are hosting a server publicly as service, this
 should be changed to the host's IP address.
 
-## Prompt PS1
+### Prompt
+#### Enable
+Manually enable the Whirl Shell.
+
+#### PS1
 Similar to a PS1 as seen in *nix-based operating systems, the Prompt String/ Statement One is the
 prompt string which will appear if you have the Whirl Shell enabled.
 
