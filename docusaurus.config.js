@@ -69,6 +69,7 @@ module.exports = {
           items: [
             { label: 'Blog', to: 'blog', },
             { label: 'Discord', href: 'https://discord.com/invite/8hn6padWF6', },
+            { label: 'Subreddit', href: 'https://www.reddit.com/r/Whirlsplash', },
           ],
         },
         {
