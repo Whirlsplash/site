@@ -81,7 +81,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyleft © ${new Date().getFullYear()} The Whirlsplash Collective`,
+      copyright: `Copyleft (ɔ) 2021-${new Date().getFullYear()} The Whirlsplash Collective`,
     },
 
     colorMode: {
