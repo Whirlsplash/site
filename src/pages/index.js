@@ -48,7 +48,7 @@ const features = [
     ),
   },
   {
-    title: 'Built to last',
+    title: 'Built to Last',
     imageUrl: 'img/undraw_building_blocks_n0nc.svg',
     description: (
       <div className="card">
