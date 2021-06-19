@@ -104,21 +104,19 @@ export default function Home() {
 
           <div>
             <a href="https://discord.com/invite/8hn6padWF6">
-              <img
-                src="https://img.shields.io/discord/821938182274154506?style=for-the-badge&logo=appveyor"
+              <img src="https://img.shields.io/discord/821938182274154506?style=for-the-badge&logo=appveyor"
                 alt="Discord" />
             </a>&nbsp;
             <a href="https://www.codefactor.io/repository/github/whirlsplash/whirl">
-              <img
-                src="https://www.codefactor.io/repository/github/whirlsplash/whirl/badge?style=for-the-badge&logo=appveyor"
+              <img src="https://www.codefactor.io/repository/github/whirlsplash/whirl/badge?style=for-the-badge&logo=appveyor"
                 alt="CodeFactor" />
             </a>&nbsp;
             <a href="https://saythanks.io/to/fuwnzy@gmail.com">
-              <img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg?style=for-the-badge&logo=appveyor" alt="Say Thanks" />
+              <img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg?style=for-the-badge&logo=appveyor"
+                alt="Say Thanks" />
             </a>&nbsp;
             <a href="https://github.com/Whirlsplash/whirl/blob/master/LICENSE">
-              <img
-                src="https://img.shields.io/github/license/Whirlsplash/whirl?style=for-the-badge&logo=appveyor"
+              <img src="https://img.shields.io/github/license/Whirlsplash/whirl?style=for-the-badge&logo=appveyor"
                 alt="License" />
             </a>
           </div>
