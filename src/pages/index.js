@@ -13,9 +13,16 @@ const features = [
     description: (
       <div className="card">
         <div className="card__footer">
-          The core Whirl binary was designed to be easy and quick to install.
-          All have to do is download (or build) the Whirl server binary,
-          generate a config, and enjoy!
+          The core Whirl service was designed to be quick and easy to setup.
+          <br /><br />
+
+          Deployment options such
+          as <a href="https://docs.docker.com/get-started/" target="_blank">Docker</a>,&nbsp;
+          <a href="https://docs.docker.com/compose/" target="_blank">Docker Compose</a>, and&nbsp;
+          <a href="https://github.com/Whirlsplash/whirl/releases/latest"
+            target="_blank"
+            aria-disabled>
+              standalone binaries</a> are offered!
         </div>
         <div className="card__footer">
           <button className="button button--primary button--block disabled">
@@ -31,8 +38,8 @@ const features = [
     description: (
       <div className="card">
         <div className="card__footer">
-          Whirl provides simple and fast customizability, zero fiddling
-          required! Want to be a host or an admin in-game? done!
+          Whirl provides simple and fast customizability, zero fiddling required! Want to be a host
+          or an admin in-game? done!
           <br /><br />
 
           <b>YOU</b> rule <b>YOUR</b> server.
@@ -53,10 +60,10 @@ const features = [
     description: (
       <div className="card">
         <div className="card__footer">
-          Much of Whirl has been built in <a href="https://www.rust-lang.org/">Rust</a>,
-          a lightning fast, memory-safe, and maintainable modern language. Gone are the days
-          of having to maintain legacy code or having to keep fixing bugs in
-          software that wasn't written to be read, and it's all open-source!
+          Much of Whirl has been written in <a href="https://www.rust-lang.org/">Rust</a>, a
+          lightning fast, memory-safe, and maintainable, modern language. Gone are the days of
+          having to maintain legacy code or having to keep fix bugs in software that wasn't written
+          to be read, and it's all open-source!
         </div>
         <div className="card__footer">
           <a href="https://github.com/Whirlsplash/whirl" target="_blank">
