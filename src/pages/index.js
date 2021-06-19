@@ -25,9 +25,11 @@ const features = [
               standalone binaries</a> are offered!
         </div>
         <div className="card__footer">
-          <button className="button button--primary button--block disabled">
-            Get Started
-          </button>
+          <a href="/docs/whirl/deploying_setup" target="_blank">
+            <button className="button button--primary button--block">
+              Get Started
+            </button>
+          </a>
         </div>
       </div>
     ),

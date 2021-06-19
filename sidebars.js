@@ -24,6 +24,7 @@ module.exports = {
       type: 'category',
       label: 'Whirl',
       items: [
+        'whirl/deploying_setup',
         'whirl/configuration',
       ],
     },
