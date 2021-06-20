@@ -15,6 +15,7 @@ place!
 
 ```shell
 $ docker run \
+> -d \
 > -p 8080:80 \
 > -p 6650:6650 \
 > -p 5673:5673 \
@@ -25,7 +26,7 @@ $ docker run \
 #### Copyable
 
 ```shell
-docker run -p 8080:80 -p 6650:6650 -p 5673:5673 -v /var/lib/whirl:/.whirl whirlsplash/whirl
+docker run -d -p 8080:80 -p 6650:6650 -p 5673:5673 -v /var/lib/whirl:/.whirl whirlsplash/whirl
 ```
 
 ### Notes
