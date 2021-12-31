@@ -3,7 +3,7 @@ require('dotenv').config();
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'Whirlsplash',
-  tagline: 'The Open-Source WorldServer.',
+  tagline: 'Home of The Open-Source WorldServer.',
   url: 'https://whirlsplash.org',
   baseUrl: '/',
   onBrokenLinks: 'throw',
